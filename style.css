@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@700&display=swap');
 
 *{
     margin: 0px;
@@ -30,25 +31,28 @@ header header{
     float: right;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    color: rgba(116, 0, 157, 1);
     right: 144px;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
 }
-.balao1, .balao2{
+.balao1, .balao2, .balao3{
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 505px;
     background: linear-gradient(185.89deg, #AD44FF 6.33%, #8F00FF 23.64%, #8F00FF 78.32%, #AF49FF 93.81%);
-    border-radius: 0 0 185px 185px;
+    border-radius: 0 0 90px 90px;
 }
 .balao2{
-    top: 81%;
-    border-radius: 185px;
-    height: 1500px;
-
+    margin: 510px 0 0 0;
+    border-radius: 90px;
+    height: 1125px;
+}
+.balao3{
+    border-radius: 90px;
+    height: 1125px;
+    margin: 1640px 0 0 0;
 }
 
-header h1{
+.apresentacao h1{
     color: white;
     font-size: 80px;
     line-height: 120px;
@@ -57,18 +61,18 @@ header h1{
     margin: 10% 0 0 7%;
 }
 
-header h2{
+.balao1 h2{
     color: white;
     text-align: center;
     font-size: 36px;
-    margin: 115px 0 0 0;
+    margin: 100px 0 0 0;
 }
 
 .cartoes{
     /* background-color: rgba(0, 0, 0, 0.276); */
     width: 85%;
     align-items: center;
-    margin: 17% 0 0 8%;
+    margin: 100px 0 0 8%;
     display:inline-flex;
 }
 
@@ -84,7 +88,6 @@ header h2{
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
     border-radius: 20px;
     padding: 30px;
-
 }
 
 .divimagen img{
@@ -102,12 +105,72 @@ header h2{
 .simular2{
     width: 250px;
     height: 80px;
-    font-size: 35px;
-    margin: 125px 0 0 41.5%;
+    font-size: 32px;
+    margin: 125px 0 0 41%;
+    padding: 5px;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1rem;
-    color: rgba(116, 0, 157, 1);
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+}
+
+.grid-info{
+    /* background-color: rgba(0, 0, 0, 0.482); */
+    width: 85%;
+    display: inline-flex;
+    margin: 190px 0 0 7%;
+}
+
+.grid-info h2{
+    padding: 3% 0 0 0;
+    font-size: 30px;
+}
+
+.grid-info p{
+    color: rgba(116, 0, 157, 1);
+    padding: 5% 0 0 0;
+}
+
+.balaoDeInformaçoes{
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+    font-family: 'Sarpanch', sans-serif;
+    text-align: center;
+    padding: 3px;
+    width: 259px;
+    height: 90px;
+    border-radius: 20px;
+    margin: 1% 0 0 7%;
+}
+
+.balaoDeInformaçoesMaior{
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+    font-family: 'Sarpanch', sans-serif;
+    text-align: center;
+    padding: 3px;
+    width: 299px;
+    height: 110px;
+    border-radius: 20px;
+    margin: 0 0 0 7%;
+}
+.imagensbalao3{
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.imagensbalao3 img{
+padding: 30%;
+}
+.balao3conjuntos{
+    /* background-color: rgba(0, 0, 0, 0.215); */
+    margin: 7% 0 0 40%;
+    height: 100px;
+    width: 60%;
+    color: white;
+}
+.balao3conjuntos h1{
+    padding: 10px;
+}
+.balao3conjuntos p{
+    padding: 10px;
 }
