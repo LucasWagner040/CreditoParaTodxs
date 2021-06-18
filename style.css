@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@700&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    height: 3668px;
+    height: 3068px;
     background-color: rgba(0, 26, 225, 1);
 }
 
@@ -24,17 +26,20 @@ header header{
 
 .simular{
     width: 100px;
-    height: 35px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    color: rgb(64, 0, 87);
+    text-decoration: none;
+    height: 25px;
     border: 0px;
     border-radius: 10px;
     margin: 25px 7% 0 0;
     float: right;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    right: 144px;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
 }
-.balao1, .balao2, .balao3{
+.balao1, .balao2, .balao3, .balao4{
     position: absolute;
     width: 100%;
     height: 505px;
@@ -51,13 +56,18 @@ header header{
     height: 1125px;
     margin: 1640px 0 0 0;
 }
+.balao4{
+    border-radius: 90px 90px 0 0;
+    margin: 157px 0 0 0;
+    background: linear-gradient(185.89deg, #AD44FF 6.33%, #8F00FF 43.64%, #4800ff00 88.32%, #1500ff 93.81%);
+}
 
 .apresentacao h1{
     color: white;
+    font-family: 'Rhodium Libre', serif;
     font-size: 80px;
     line-height: 120px;
     letter-spacing: 0.1rem;
-    font-family: Rhodium Libre;
     margin: 10% 0 0 7%;
 }
 
@@ -104,22 +114,26 @@ header header{
 
 .simular2{
     width: 250px;
-    height: 80px;
+    height: 120px;
     font-size: 32px;
-    margin: 125px 0 0 41%;
-    padding: 5px;
-    border: 0px;
+    text-decoration: none;
+    margin: 0 0 0 38%;
+    padding: 25px;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1rem;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
 }
 
+.divsimular2{
+margin: 155px;
+}
+
 .grid-info{
     /* background-color: rgba(0, 0, 0, 0.482); */
     width: 85%;
     display: inline-flex;
-    margin: 190px 0 0 7%;
+    margin: 100px 0 0 7%;
 }
 
 .grid-info h2{
@@ -161,10 +175,15 @@ header header{
 .imagensbalao3 img{
 padding: 30%;
 }
+
+.balao3titulos{
+    /* background-color: black; */
+    margin: 13% 0 0 0;
+    letter-spacing: 0.2rem;
+}
 .balao3conjuntos{
-    /* background-color: rgba(0, 0, 0, 0.215); */
-    margin: 7% 0 0 40%;
-    height: 100px;
+    /* background-color: rgba(255, 255, 255, 0.215); */
+    margin: 3% 0 0 40%;
     width: 60%;
     color: white;
 }
@@ -173,4 +192,49 @@ padding: 30%;
 }
 .balao3conjuntos p{
     padding: 10px;
+    width: 340px;
+}
+.balao4 h1{
+    color: white;
+    font-size: 40px;
+    margin: 5% 0 0 8%;
+    width: 650px;
+}
+
+.balao4 p{
+    color: white;
+    margin: 2% 0 0 8%;
+    font-size: 25px;
+    width: 400px;
+}
+
+.botaoesquerdo{
+    /* background-color: black; */
+    margin: 2% 0 0 8%;
+    width: 15%;
+    height: 100px;
+    float: left;
+}
+
+.botaoesquerdo button{
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+    width: 100%;
+    padding: 8px;
+    margin: 10% 0 0 0;
+    border-radius: 20px;
+    border: 0px;
+}
+.simular3{
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    color: rgb(64, 0, 87);
+    text-decoration: none;
+    border: 0px;
+    border-radius: 20px;
+    margin: 25px 7% 0 0;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
 }
