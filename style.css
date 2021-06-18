@@ -14,6 +14,9 @@ body{
     height: 3068px;
     background-color: rgba(0, 26, 225, 1);
 }
+.body2{
+    height: 1300px;
+}
 
 header header{
     width: 100%;
@@ -65,10 +68,10 @@ header header{
 .apresentacao h1{
     color: white;
     font-family: 'Rhodium Libre', serif;
-    font-size: 80px;
+    font-size: 4rem;
     line-height: 120px;
     letter-spacing: 0.1rem;
-    margin: 10% 0 0 7%;
+    margin: 10% 0 0 8%;
 }
 
 .balao1 h2{
@@ -237,4 +240,106 @@ padding: 30%;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+}
+
+
+
+
+
+
+
+
+.simularMenu{
+    width: 100px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    color: rgb(64, 0, 87);
+    text-decoration: none;
+    height: 25px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 25px 0 0 8%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+}
+
+.apresentacao .pagina2 h1{
+    width: 788px;
+    font-size: 4rem;
+}
+
+.apresentacao .pagina2 h2{
+    width: 788px;
+    text-align: start;
+    margin: 2% 0 0 8%;
+}
+
+.modidicacaoNoBalao{
+    height: 800px;
+    border-radius: 90px 90px 0px 0px;
+}
+.modidicacaoNoBalao h1{
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-size: 4rem;
+}
+.container{
+    display:flex;
+    margin: 5% auto;
+    background-image:url(./imagens/Rectangle\ 41.ico);
+    width: 970px;
+    height: 453px;
+}
+.containergrid{
+    margin: 5% auto;
+}
+.containerBranco{
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+    width: 830px;
+    height: 142px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display:inline-flex;
+}
+.containerBranco .parcela{
+    width: 287px;
+    height: 2.2rem;
+    padding: 60px 0 0 50px;
+    /* background-color: rgba(0, 0, 0, 0.187); */
+}
+.quadradoRoxo1{
+    width: 71px;
+    height: 45px;
+    background-color: rgba(85, 6, 134, 1);
+    border-radius: 10px;
+    margin: 48px 0 0 0;
+}
+.quadradoRoxo1 p{
+    color: white;
+    margin: 13px 20px;
+}
+
+.quadradoRoxo2{
+    width: 201px;
+    height: 45px;
+    background-color: rgba(85, 6, 134, 1);
+    border-radius: 10px;
+    margin: 48px 0 0 500px;
+    display:flex;
+    position: absolute;
+}
+.quadradoRoxo2 p{
+    color: white;
+    margin: 13px auto;
+}
+.containerParagrafo{
+    width: 215px;
+    height: 25px;
+    margin: 100px 0 0 87px;
+    text-align: center;
+    font-size: 12px;
+    /* background-color: black; */
+    align-items: flex-end;
 }
