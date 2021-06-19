@@ -3,4 +3,4 @@
 
 ## ---------- Readme Em desenvolvimento ---------------
 
-Este site foi construído usando [CreditoParaTodxs](https://projeto-serasa.netlify.app).
+ -> [CreditoParaTodxs](https://projeto-serasa.netlify.app) <-
