@@ -277,7 +277,7 @@ padding: 30%;
 }
 
 .modidicacaoNoBalao{
-    height: 800px;
+    height: 900px;
     border-radius: 90px 90px 0px 0px;
 }
 .modidicacaoNoBalao h1{
@@ -342,4 +342,129 @@ padding: 30%;
     font-size: 12px;
     /* background-color: black; */
     align-items: flex-end;
+}
+.containerRanger{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.228); */
+    width: 830px;
+    height: 341px;
+}
+.containerParagrafo1{
+    height: 80px;
+    /* background-color: rgba(0, 0, 0, 0.276); */
+    display: flex;
+}
+.containerParagrafo1 .container-P-1{
+    float: left;
+    margin: 32px 0 0 0;
+    font-size: 25px;
+}
+.container-p2-c1{
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+    border-radius: 10px;
+    margin: 17px 0 0 267px;
+    display: flex;
+    color: black;
+}
+.container-p2-c1 p{
+    padding: 10px 5px 0 30px;
+    font-size: 20px;
+}
+.container-p2-c2 p{
+    padding: 10px 0 0 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+.containerParagrafo1 div .resultadoValor{
+    width: 100px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 0px;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+
+.containerParagrafo1 div .resultadoValor2{
+    pointer-events: none;
+    width: 40px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 0px;
+    font-size: 20px;
+    margin: 0 0 0 11px;
+    text-align: center;
+}
+.container-p2-c2{
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
+    border-radius: 10px;
+    margin: 17px 0 0 190px;
+    color: black;
+    display: flex;
+}
+
+
+.range-1, .range-2{
+    /* background-color: rgba(0, 0, 0, 0.296); */
+    border-radius: 100px;
+}
+input[type=range]{
+    -webkit-appearance:none;
+    width: 100%;
+    margin: 20px 0;
+}
+/* estiliza o marcador móvel */
+/* Chrome/Safari/Opera */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* remove estilo padrão do browser */
+    background: rgba(85, 6, 134, 1);
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin: -8px 0 0 0;
+    box-shadow: inset 0px 0px 5px rgb(198, 198, 198);
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg,#2c29f9 0%, #04ff21 100%);
+    box-shadow: 0px 0px 20px rgb(188, 102, 249);
+}
+.span-1{
+    margin: 0 0 0 -12.9px;
+    font-weight: bold;
+}
+.span-2{
+    float: right;
+    margin: 0 -20px 0 0;
+    font-weight: bold;
+}
+.buttonEmprestimo{
+    width: 450px;
+    height: 70px;
+    font-size: 25px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.buttonEmprestimo button{
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 150.05%);
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    color: rgb(64, 0, 87);
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    cursor:pointer;
 }
