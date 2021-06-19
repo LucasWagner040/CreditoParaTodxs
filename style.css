@@ -18,7 +18,7 @@ body{
     height: 1300px;
 }
 
-header header{
+header header, .header{
     width: 100%;
     height: 60px;
     /* background-color: rgba(101, 93, 121, 0.324); */
@@ -61,7 +61,7 @@ header header{
 }
 .balao4{
     border-radius: 90px 90px 0 0;
-    margin: 157px 0 0 0;
+    margin: 12% 0 0 0;
     background: linear-gradient(185.89deg, #AD44FF 6.33%, #8F00FF 43.64%, #4800ff00 88.32%, #1500ff 93.81%);
 }
 
@@ -221,10 +221,11 @@ padding: 30%;
 
 .botaoesquerdo button{
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
-    width: 100%;
+    width: 50%;
     padding: 8px;
     margin: 10% 0 0 0;
     border-radius: 20px;
+    cursor: pointer;
     border: 0px;
 }
 .simular3{
@@ -467,4 +468,7 @@ input[type=range]::-webkit-slider-runnable-track {
     height: 100%;
     border: 0px;
     cursor:pointer;
+}
+.buttonEmprestimo button:active:after .balaoflutuante {
+    display:block;
 }
