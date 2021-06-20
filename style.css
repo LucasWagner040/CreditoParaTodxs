@@ -61,7 +61,7 @@ header header, .header{
 }
 .balao4{
     border-radius: 90px 90px 0 0;
-    margin: 12% 0 0 0;
+    top: 1130px;
     background: linear-gradient(185.89deg, #AD44FF 6.33%, #8F00FF 43.64%, #4800ff00 88.32%, #1500ff 93.81%);
 }
 
@@ -214,7 +214,7 @@ padding: 30%;
 .botaoesquerdo{
     /* background-color: black; */
     margin: 2% 0 0 8%;
-    width: 15%;
+    width: 300px;
     height: 100px;
     float: left;
 }
@@ -285,6 +285,10 @@ padding: 30%;
     text-align: center;
     margin: 5% 0 0 0;
     font-size: 4rem;
+}
+.esprestimoimagen{
+    float: right;
+    margin: -100px 100px 0 0;
 }
 .container{
     display:flex;

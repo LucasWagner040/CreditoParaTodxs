@@ -13,6 +13,6 @@ function myFunction2(val) {
     document.getElementById("demo2").innerText = "R$ " + parseInt(comJuros)
 }
 
-function credito(){
-    alert("----------------------------\n Feito Por Lucas Wagner \n----------------------------")
+function erro(){
+    alert("----------------------------\n Parte Em Desenvolvimento \n----------------------------")
 }
