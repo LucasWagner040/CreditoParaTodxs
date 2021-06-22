@@ -1,8 +1,243 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@700&display=swap');
+
+@media only screen and (min-width: 500px) {
+    .balao4{
+        margin: 304vmax 0 0 0 !important;
+        height: 80% !important;
+    }
+    .balao3{
+        margin: 157vmax 0 0 0 !important;
+        height: 145vh !important;
+    }
+    .imagensbalao3{
+        width: 0% !important;
+        background-color: black;
+        float: none !important;
+        height: 0% !important;
+        padding: 0px;
+        margin: 0 0 0 38%;
+    }
+    .imagensbalao3 img{
+        width: 20vw;
+        height: 20vw;
+        padding: 2vw !important;
+    }
+    .imagen02{
+        display: none;
+    }
+    .balao3titulos{
+        /* background-color: black; */
+        text-align: center;
+        margin:25% 0 0 0 !important;
+    }
+    .balao3conjuntos{
+        background: linear-gradient(181.05deg, rgba(5, 0, 255, 0.25) 0.89%, rgba(5, 0, 255, 0) 49.84%);
+        border-radius: 20px;
+        margin: 5% auto !important;
+        text-align: center !important;
+        color: white !important;
+    }
+    .balao3conjuntos h1{
+        padding: 10px;
+        font-size: 1.4rem !important;
+    }
+    .balao3conjuntos p{
+        padding: 0 !important;
+        margin: 3% auto !important;
+        text-align: center !important;
+        font-size: 1rem !important;
+        width: 60% !important;
+    }
+}
+@media only screen and (min-width: 760px) {
+    .imagensbalao3{
+        width: 0% !important;
+        background-color: black;
+        float: none !important;
+        height: 0% !important;
+        padding: 0px;
+        margin: 0 0 0 38%;
+    }
+    .imagensbalao3 img{
+        width: 20vw;
+        height: 20vw;
+        padding: 2vw !important;
+    }
+    .imagen02{
+        display: none;
+    }
+    .balao3titulos{
+        text-align: center;
+        margin:25% 0 0 0 !important;
+    }
+    .balao3conjuntos{
+        background: linear-gradient(181.05deg, rgba(5, 0, 255, 0.25) 0.89%, rgba(5, 0, 255, 0) 49.84%);
+        border-radius: 20px;
+        margin: 5% auto !important;
+        text-align: center !important;
+        color: white !important;
+    }
+    .balao3conjuntos h1{
+        padding: 10px;
+        font-size: 1.4rem !important;
+    }
+    .balao3conjuntos p{
+        padding: 0 !important;
+        margin: 3% auto !important;
+        text-align: center !important;
+        font-size: 1rem !important;
+        width: 60% !important;
+    }
+    .balao3{
+        margin: 144vmax 0 0 0 !important;
+        height: 155vh !important;
+    }
+    .balao4{
+        margin: 277vmax 0 0 0 !important;
+        height: 90% !important;
+    }
+}
+@media only screen and (min-width: 860px){
+    
+    .balao3{
+        height: 186vh !important;
+        margin: 138vmax 0 0 0 !important;
+        /* background: black !important; */
+    }
+    .balao4{
+        margin: 279vmax 0 0 0 !important;
+        height: 100% !important;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .balao3{
+        margin: 134vmax 0 0 0 !important;
+    }
+    .balao4{
+        margin: 260vmax 0 0 0 !important;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .balao3{
+        margin: 131.5vmax 0 0 0 !important;
+    }
+    .balao4{
+        margin: 253vmax 0 0 0 !important;
+    }
+}
+@media only screen and (min-width: 1060px) {
+    .balao3{
+        margin: 129vmax 0 0 0 !important;
+    }
+    .balao4{
+        margin: 244vmax 0 0 0 !important;
+        height: 110% !important;
+    }
+}
+@media only screen and (min-width: 1110px) {
+    .balao3{
+        margin: 127vmax 0 0 0 !important;
+    }
+    .balao4{
+        margin: 237vmax 0 0 0 !important;
+    }
+}
+@media only screen and (min-width: 1160px) {
+    
+    .imagensbalao3{
+        margin: 0 !important;
+        width: 40% !important;
+        float: left !important;
+    }
+    .imagensbalao3 img{
+        padding: 30% !important;
+    }
+    .imagen02{
+        display: block !important;
+    }
+    /* .balao3titulos{
+        text-align: center;
+        width: 50%;
+        padding: 0 0 0 15% !important;
+    }
+    .balao3conjuntos{
+        background: linear-gradient(181.05deg, rgba(5, 0, 255, 0.25) 0.89%, rgba(5, 0, 255, 0) 49.84%);
+        border-radius: 20px;
+        margin: 10% auto !important;
+        text-align: center !important;
+        color: black !important;
+    }
+    .balao3conjuntos h1{
+        font-size: 1.4rem !important;
+    }
+    .balao3conjuntos p{
+        padding: 0 !important;
+        margin: 6% auto !important;
+        text-align: center !important;
+        font-size: 1rem !important;
+        width: 60% !important;
+    } */
+    
+    .balao3titulos{
+        /* background-color: black; */
+        margin: 13% 0 0 0 !important;
+    }
+    .balao3conjuntos{
+        margin: 3% 0 0 40% !important;
+        width: 30% !important;
+        color: white !important;
+    }
+    .balao3conjuntos h1{
+        padding: 10px !important;
+        font-size: 2rem !important;
+    }
+    .balao3conjuntos p{
+        padding: 10px !important;
+        width: 340px !important;
+    }
+    
+    .balao3{
+        margin: 125.5vmax 0 0 0 !important;
+    }
+    .balao4{
+        margin: 230vmax 0 0 0 !important;
+        height: 120% !important;
+    }
+}
+@media only screen and (min-width: 1260px) {
+    .balao3{
+        margin: 122vmax 0 0 0 !important;
+    }
+    .balao4{
+        /* background: black !important; */
+        margin: 219vmax 0 0 0 !important;
+    }
+    body{
+        display: flex;
+        height: 10px;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .balao4{
+        /* background: black !important; */
+        margin: 211vmax 0 0 0 !important;
+    }
+    .balao3{
+        margin: 120vmax 0 0 0 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 *{
     margin: 0px;
@@ -11,14 +246,14 @@
 }
 
 body{
-    height: 3068px;
+    width: 100%;
     background-color: rgba(0, 26, 225, 1);
 }
 .body2{
     height: 1300px;
 }
 
-header header, .header{
+header header{
     width: 100%;
     height: 60px;
     /* background-color: rgba(101, 93, 121, 0.324); */
@@ -26,6 +261,7 @@ header header, .header{
     top: 0px;
     z-index: 99;
 }
+
 
 .simular{
     width: 100px;
@@ -45,30 +281,31 @@ header header, .header{
 .balao1, .balao2, .balao3, .balao4{
     position: absolute;
     width: 100%;
-    height: 505px;
+    height: 70vh;
     background: linear-gradient(185.89deg, #AD44FF 6.33%, #8F00FF 23.64%, #8F00FF 78.32%, #AF49FF 93.81%);
     border-radius: 0 0 90px 90px;
 }
 .balao2{
-    margin: 510px 0 0 0;
+    margin: 71vh 0 0 0;
     border-radius: 90px;
-    height: 1125px;
+    height: 85vmax;
 }
 .balao3{
     border-radius: 90px;
     height: 1125px;
-    margin: 1640px 0 0 0;
+    margin: 1025px 0 0 0;
 }
 .balao4{
     border-radius: 90px 90px 0 0;
-    top: 1130px;
+    margin: 2770px 0 0 0;
+    height: 600px;
     background: linear-gradient(185.89deg, #AD44FF 6.33%, #8F00FF 43.64%, #4800ff00 88.32%, #1500ff 93.81%);
 }
 
 .apresentacao h1{
     color: white;
     font-family: 'Rhodium Libre', serif;
-    font-size: 4rem;
+    font-size: 6vw;
     line-height: 120px;
     letter-spacing: 0.1rem;
     margin: 10% 0 0 8%;
@@ -77,7 +314,7 @@ header header, .header{
 .balao1 h2{
     color: white;
     text-align: center;
-    font-size: 36px;
+    font-size: 3vw;
     margin: 100px 0 0 0;
 }
 
@@ -95,12 +332,12 @@ header header, .header{
 }
 
 .divimagen{
-    width: 100px;
-    height: 100px;
+    width: 45%;
+    height: 20%;
     margin: 5% auto;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
     border-radius: 20px;
-    padding: 30px;
+    padding: 11%;
 }
 
 .divimagen img{
@@ -111,17 +348,17 @@ header header, .header{
 .cardparagrafo{
     margin: 37px auto;
     text-align: center;
+    font-size: 1.3vw;
     color: white;
     font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: 0.2rem;
 }
 
 .simular2{
-    width: 250px;
-    height: 120px;
-    font-size: 32px;
+    font-size: 2vw;
     text-decoration: none;
     margin: 0 0 0 38%;
-    padding: 25px;
+    padding: 2vw;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1rem;
@@ -129,46 +366,48 @@ header header, .header{
 }
 
 .divsimular2{
-margin: 155px;
+margin: 13%;
+/* background-color: rgba(0, 0, 0, 0.426); */
 }
 
 .grid-info{
     /* background-color: rgba(0, 0, 0, 0.482); */
     width: 85%;
     display: inline-flex;
-    margin: 100px 0 0 7%;
+    margin: 4% 0 0 7%;
 }
 
 .grid-info h2{
-    padding: 3% 0 0 0;
-    font-size: 30px;
+    padding: 1% 0 0 0;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 2.2vw;
 }
 
 .grid-info p{
     color: rgba(116, 0, 157, 1);
-    padding: 5% 0 0 0;
+    padding: 1% 0 0 0;
+    font-size: 1.5vw;
 }
 
 .balaoDeInformaçoes{
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
-    font-family: 'Sarpanch', sans-serif;
     text-align: center;
-    padding: 3px;
-    width: 259px;
-    height: 90px;
+    padding: 0.5%;
+    width: 30%;
+    height: 100%;
     border-radius: 20px;
-    margin: 1% 0 0 7%;
+    margin: 1.5% 1% 1% 1%;
 }
 
 .balaoDeInformaçoesMaior{
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
     font-family: 'Sarpanch', sans-serif;
     text-align: center;
-    padding: 3px;
-    width: 299px;
-    height: 110px;
+    padding: 1%;
+    width: 30%;
+    height: 100%;
     border-radius: 20px;
-    margin: 0 0 0 7%;
+    margin: 1%;
 }
 .imagensbalao3{
     width: 40%;
@@ -182,26 +421,25 @@ padding: 30%;
 .balao3titulos{
     /* background-color: black; */
     margin: 13% 0 0 0;
-    letter-spacing: 0.2rem;
 }
 .balao3conjuntos{
-    /* background-color: rgba(255, 255, 255, 0.215); */
     margin: 3% 0 0 40%;
     width: 60%;
     color: white;
 }
 .balao3conjuntos h1{
     padding: 10px;
+    font-size: 2rem;
 }
 .balao3conjuntos p{
     padding: 10px;
     width: 340px;
 }
 .balao4 h1{
+    text-align: center;
     color: white;
-    font-size: 40px;
-    margin: 5% 0 0 8%;
-    width: 650px;
+    font-size: 5vw;
+    margin: 10% auto;
 }
 
 .balao4 p{
@@ -472,7 +710,4 @@ input[type=range]::-webkit-slider-runnable-track {
     height: 100%;
     border: 0px;
     cursor:pointer;
-}
-.buttonEmprestimo button:active:after .balaoflutuante {
-    display:block;
 }
