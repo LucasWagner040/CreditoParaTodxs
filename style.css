@@ -2,8 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@700&display=swap');
-
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 499px) {
+    .simular3{
+        width: 25% !important;
+        text-align: center;
+        padding: 8px;
+        color: rgb(64, 0, 87);
+        text-decoration: none;
+        border: 0px;
+        border-radius: 20px;
+        margin: 25px 7% 0 0;
+    }
     .balao4{
         margin: 304vmax 0 0 0 !important;
         height: 80% !important;
@@ -37,6 +46,55 @@
         background: linear-gradient(181.05deg, rgba(5, 0, 255, 0.25) 0.89%, rgba(5, 0, 255, 0) 49.84%);
         border-radius: 20px;
         margin: 5% auto !important;
+        text-align: center !important;
+        color: white !important;
+    }
+    .balao3conjuntos h1{
+        padding: 10px;
+        font-size: 1.4rem !important;
+    }
+    .balao3conjuntos p{
+        padding: 0 !important;
+        margin: 3% auto !important;
+        text-align: center !important;
+        font-size: 1rem !important;
+        width: 90% !important;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .balao4{
+        margin: 304vmax 0 0 0 !important;
+        height: 80% !important;
+    }
+    .balao3{
+        margin: 157vmax 0 0 0 !important;
+        height: 145vh !important;
+    }
+    .imagensbalao3{
+        width: 0% !important;
+        background-color: black;
+        float: none !important;
+        height: 0% !important;
+        padding: 0px;
+        margin: 0 0 0 38%;
+    }
+    .imagensbalao3 img{
+        width: 20vw;
+        height: 20vw;
+        padding: 2vw !important;
+    }
+    .imagen02{
+        display: none;
+    }
+    .balao3titulos{
+        /* background-color: black; */
+        text-align: center;
+        margin:25% 0 0 0 !important;
+    }
+    .balao3conjuntos{
+        background: linear-gradient(181.05deg, rgba(5, 0, 255, 0.25) 0.89%, rgba(5, 0, 255, 0) 49.84%);
+        border-radius: 20px;
+        margin: 0% auto !important;
         text-align: center !important;
         color: white !important;
     }
@@ -96,7 +154,7 @@
         height: 155vh !important;
     }
     .balao4{
-        margin: 277vmax 0 0 0 !important;
+        margin: 265vmax 0 0 0 !important;
         height: 90% !important;
     }
 }
@@ -308,13 +366,13 @@ header header{
     font-size: 6vw;
     line-height: 120px;
     letter-spacing: 0.1rem;
-    margin: 10% 0 0 8%;
+    margin: 5% 0 0 8%;
 }
 
 .balao1 h2{
     color: white;
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 100px 0 0 0;
 }
 
@@ -348,7 +406,8 @@ header header{
 .cardparagrafo{
     margin: 37px auto;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
     color: white;
     font-family: 'Red Hat Display', sans-serif;
     letter-spacing: 0.2rem;
@@ -446,7 +505,7 @@ padding: 30%;
     color: white;
     margin: 2% 0 0 8%;
     font-size: 25px;
-    width: 400px;
+    width: 90%;
 }
 
 .botaoesquerdo{
