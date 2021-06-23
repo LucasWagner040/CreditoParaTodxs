@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@700&display=swap');
 @media only screen and (max-width: 499px) {
+    .esprestimoimagen{
+        display: none;
+    }
     .simular3{
         width: 25% !important;
         text-align: center;
@@ -62,6 +65,9 @@
     }
 }
 @media only screen and (min-width: 500px) {
+    .esprestimoimagen{
+        display: none;
+    }
     .balao4{
         margin: 304vmax 0 0 0 !important;
         height: 80% !important;
@@ -111,6 +117,9 @@
     }
 }
 @media only screen and (min-width: 760px) {
+    .esprestimoimagen{
+        display: none;
+    }
     .imagensbalao3{
         width: 0% !important;
         background-color: black;
@@ -159,6 +168,9 @@
     }
 }
 @media only screen and (min-width: 860px){
+    .esprestimoimagen{
+        display: none;
+    }
     
     .balao3{
         height: 186vh !important;
@@ -171,6 +183,9 @@
     }
 }
 @media only screen and (min-width: 960px) {
+    .esprestimoimagen{
+        display: none;
+    }
     .balao3{
         margin: 134vmax 0 0 0 !important;
     }
@@ -179,6 +194,9 @@
     }
 }
 @media only screen and (min-width: 1000px) {
+    .esprestimoimagen{
+        display: none;
+    }
     .balao3{
         margin: 131.5vmax 0 0 0 !important;
     }
@@ -187,6 +205,9 @@
     }
 }
 @media only screen and (min-width: 1060px) {
+    .esprestimoimagen{
+        display: block;
+    }
     .balao3{
         margin: 129vmax 0 0 0 !important;
     }
@@ -563,13 +584,13 @@ padding: 30%;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0) 269.05%);
 }
 
-.apresentacao .pagina2 h1{
-    width: 788px;
-    font-size: 4rem;
+.apresentacao .balao1 h1{
+    width: 70%;
+    font-size: 6vw;
 }
 
-.apresentacao .pagina2 h2{
-    width: 788px;
+.apresentacao .balao1 h2{
+    width: 70%;
     text-align: start;
     margin: 2% 0 0 8%;
 }
@@ -585,6 +606,7 @@ padding: 30%;
 }
 .esprestimoimagen{
     float: right;
+    position: relative;
     margin: -100px 100px 0 0;
 }
 .container{
